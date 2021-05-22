@@ -17,7 +17,11 @@ const App = () => {
           component={Home}
         />
         <Stack.Screen
-          options={{ title: "CLASE", headerTitleAlign: "center" }}
+          options={{
+            title: "CLASE",
+            headerTitleAlign: "center",
+            headerShown: false,
+          }}
           name="/clases"
           component={Clases}
         />
